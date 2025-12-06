@@ -85,7 +85,7 @@ def checkWinner(matrix):
 
      #for 3 columns:
      for i in range(0,3):#[j]= colmn ,here changing when loop runs
-          if matrix[0][i]==matrix[1][i]==matrix==[2][i]:
+          if matrix[0][i]==matrix[1][i]==matrix[2][i]:
                if matrix[0][i]=="x":
                     winner="PLAYER 1 is winner"
                elif matrix[0][i]=="o":
