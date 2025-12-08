@@ -171,7 +171,7 @@ while True: #how long screen can stay open
 
 
 #logic to place cross and circle
-     if result!= None:
+     if result is not None and not who_won:
           if matrix[result[0]-1][result[1]-1]=="-":
           #only if matrix is blank , then we can save x or o>>  
 
